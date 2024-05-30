@@ -26,6 +26,8 @@ body {
     align-items: center;
     max-width: 390px;
     margin: 30px;
+    margin-left: 15px; /* Mengurangi jarak margin kiri */
+    margin-right: 0; /* Menambahkan jarak margin kanan */
 }
 
 .navigasi h1 {
@@ -113,6 +115,7 @@ body {
 
     .hamburger {
         display: block;
+         margin-left: 10px; /* Mengurangi jarak antara judul dan hamburger */
     }
 }
 
