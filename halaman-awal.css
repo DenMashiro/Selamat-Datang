@@ -22,6 +22,8 @@ body {
 }
 
 .judul {
+    display: flex;
+    align-items: center;
     max-width: 390px;
     margin: 30px;
 }
@@ -64,6 +66,7 @@ body {
     display: none;
     font-size: 2em;
     cursor: pointer;
+    margin-left: 20px; /* Jarak antara judul dan hamburger */
 }
 
 /* Responsif */
