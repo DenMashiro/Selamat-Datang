@@ -85,7 +85,7 @@ body {
 
     .navigasi h1 {
         font-size: 5vw; /* Ukuran font yang lebih kecil pada layar kecil */
-        width: 390px;
+        width: 350px;
     }
 
     .nav-list {
