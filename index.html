@@ -12,27 +12,27 @@
         <div class="judul">
             <h1>DEN MASHIRO PROJECT</h1>
         </div>
-        
-        <li>
-            <a href="">Contact</a>
-            
-        </li>
-        <li>
-            <a href="">lainnya Tentang Saya</a>
-        </li>
-        <li>
-            <a href="">Daftar Jasa</a>
-        </li>
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776; <!-- simbol hamburger -->
+        </div>
+        <ul class="nav-list">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Lainnya Tentang Saya</a></li>
+            <li><a href="#">Daftar Jasa</a></li>
+        </ul>
     </div>
 
     <div class="bagian01">
-        <div class="box1">
-
-        </div>
+        <div class="box1"></div>
     </div>
 
-    <div class="bagian02">
+    <div class="bagian02"></div>
 
-    </div>
+    <script>
+        function toggleMenu() {
+            var navList = document.querySelector('.nav-list');
+            navList.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
